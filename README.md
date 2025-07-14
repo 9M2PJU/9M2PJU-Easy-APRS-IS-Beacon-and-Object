@@ -1,8 +1,14 @@
 # 🚀 9M2PJU Easy APRS-IS Beacon and Object
 
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://opensource.org/licenses/GPL-3.0) 
+[![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/downloads/)
+[![GitHub Release](https://img.shields.io/github/v/release/9M2PJU/9M2PJU-Easy-APRS-IS-Beacon-and-Object)](https://github.com/9M2PJU/9M2PJU-Easy-APRS-IS-Beacon-and-Object/releases/latest)
+[![Issues](https://img.shields.io/github/issues/9M2PJU/9M2PJU-Easy-APRS-IS-Beacon-and-Object)](https://github.com/9M2PJU/9M2PJU-Easy-APRS-IS-Beacon-and-Object/issues)
+[![Contributors](https://img.shields.io/github/contributors/9M2PJU/9M2PJU-Easy-APRS-IS-Beacon-and-Object)](https://github.com/9M2PJU/9M2PJU-Easy-APRS-IS-Beacon-and-Object/graphs/contributors)
+
 ---
 
-![Screenshot](https://github.com/user-attachments/assets/59aa861c-8867-499f-8e91-cc7a18de4d91)
+![App Screenshot](https://github.com/user-attachments/assets/59aa861c-8867-499f-8e91-cc7a18de4d91)
 
 **9M2PJU Easy APRS-IS Beacon and Object** is a sleek, Python-powered desktop app built with **PyQt6**, crafted to streamline APRS-IS beacon and object packet transmission for amateur radio enthusiasts. Its clean and intuitive GUI lets you manage APRS objects and beaconing effortlessly — no more fuss, just simple and effective operation.
 
@@ -10,33 +16,33 @@
 
 ## ✨ Features at a Glance
 
-- **Seamless APRS-IS Connectivity**  
+- 🚀 **Seamless APRS-IS Connectivity**  
   Log in and transmit beacons directly to the APRS-IS network with zero hassle.
 
-- **Flexible Beacon Modes**  
+- 📍 **Flexible Beacon Modes**  
   Support for fixed-location beacons *and* multiple dynamic objects.
 
-- **Custom Object Configuration**  
+- 🎨 **Custom Object Configuration**  
   Assign unique symbols, tables, and descriptive comments per object.
 
-- **Safe "Dry Run" Mode**  
+- 🛑 **Safe "Dry Run" Mode**  
   Validate your setups without transmitting, for peace of mind.
 
-- **Smart Staggered Intervals**  
+- ⏱️ **Smart Staggered Intervals**  
   Avoid network congestion by automatically staggering beacon intervals.
 
-- **Human-Friendly YAML Configuration**  
+- 📝 **Human-Friendly YAML Configuration**  
   Easily tweak settings through a clean `config.yaml` file.
 
-- **Modern PyQt6 GUI**  
+- 🖥️ **Modern PyQt6 GUI**  
   Responsive, intuitive interface designed for smooth user experience.
 
 ---
 
 ## ⚙️ Prerequisites
 
-- Python 3.8 or higher  
-- Recommended: use a Python **virtual environment** for clean dependency management.
+- 🐍 Python 3.8 or higher  
+- 🔧 Recommended: use a Python **virtual environment** for clean dependency management.
 
 ### Quick Setup Guide
 
@@ -110,26 +116,19 @@ beacons:
 
 ## 📦 Standalone AppImage Release
 
-A **pre-built standalone AppImage** is now available for Linux users — no need to install Python or dependencies!
+🎉 **Pre-built standalone AppImage available for Linux users!**
 
-Download the latest release here:
-[9M2PJU\_Easy\_APRS-IS\_Beacon\_and\_Object-x86\_64.AppImage](https://github.com/9M2PJU/9M2PJU-Easy-APRS-IS-Beacon-and-Object/releases/latest)
+No need to install Python or dependencies — just download and run.
+
+**Download the latest release:**
+[![Latest Release](https://img.shields.io/github/v/release/9M2PJU/9M2PJU-Easy-APRS-IS-Beacon-and-Object?label=Download%20AppImage)](https://github.com/9M2PJU/9M2PJU-Easy-APRS-IS-Beacon-and-Object/releases/latest)
 
 ### Running the AppImage
 
-Make the AppImage executable:
-
 ```bash
 chmod +x 9M2PJU_Easy_APRS-IS_Beacon_and_Object-x86_64.AppImage
-```
-
-Run it:
-
-```bash
 ./9M2PJU_Easy_APRS-IS_Beacon_and_Object-x86_64.AppImage
 ```
-
-The AppImage includes all dependencies and your virtual environment bundled inside.
 
 ---
 
@@ -142,9 +141,15 @@ Your APRS-IS passcode authenticates you on the network and is essential for tran
 
 ## 🤝 Contributing
 
-Love open source? We do too!
+Love open source? So do we! 🚀
 
-Feel free to file issues, send pull requests, or suggest features — your contributions make this project better for everyone!
+Feel free to:
+
+* 🐞 File issues
+* 💡 Suggest features
+* 🔧 Submit pull requests
+
+Your contributions make this project better for everyone!
 
 ---
 
@@ -155,5 +160,17 @@ See the [`LICENSE`](LICENSE) file for full details.
 
 ---
 
-Made with ❤️ for amateur radio operators worldwide.
+## 📬 Stay Connected
+
+Got questions, feedback, or just want to chat? Reach out!
+
+* **Callsign:** 9M2PJU
+* **GitHub:** [https://github.com/9M2PJU](https://github.com/9M2PJU)
+* **Email:** [9m2pju@hamradio.my](mailto:9m2pju@hamradio.my)
+
+---
+
+Made with ❤️ by amateur radio enthusiasts, for amateur radio enthusiasts worldwide.
+
+```
 
