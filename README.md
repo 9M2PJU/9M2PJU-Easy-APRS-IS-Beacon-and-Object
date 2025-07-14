@@ -1,56 +1,59 @@
 # 9M2PJU Easy APRS-IS Beacon and Object
 
-A simple Python GUI to send APRS-IS beacon and object packets using PyQt6, with YAML-based configuration. Designed for amateur radio operators who want a graphical way to manage APRS objects and beaconing.
+Presenting a sleek, Python-based graphical interface crafted with PyQt6, designed to simplify **APRS-IS beacon and object packet transmission**. This intuitive application is tailored for amateur radio operators seeking a streamlined, visual method to manage their APRS objects and beaconing activities.
 
-<img width="1008" height="732" alt="image" src="https://github.com/user-attachments/assets/b04017e0-5f18-4e57-90f3-d7b7d5b97a79" />
+\<img width="1008" height="732" alt="image" src="[https://github.com/user-attachments/assets/b04017e0-5f18-4e57-90f3-d7b7d5b97a79](https://github.com/user-attachments/assets/b04017e0-5f18-4e57-90f3-d7b7d5b97a79)" /\>
 
----
+-----
 
-## 📡 Features
+## 🌟 Key Features
 
-- ✅ APRS-IS login and beaconing
-- 🧭 Supports fixed-position beacons and additional object beacons
-- 🗺 Symbol and comment configuration per object
-- 🧪 "Dry Run" mode to test without transmitting
-- 🔁 Staggered beaconing intervals
-- 💾 YAML config file for easy editing/saving
-- 🖥 Simple and responsive PyQt6 GUI
+  * **Effortless APRS-IS Integration**: Seamless login and beaconing capabilities.
+  * **Versatile Beaconing**: Supports both fixed-position and multiple object beacons.
+  * **Customizable Objects**: Configure unique symbols and comments for each object.
+  * **"Dry Run" Mode**: Test your configurations safely without transmitting.
+  * **Intelligent Staggered Intervals**: Optimize your beaconing with staggered transmission times.
+  * **YAML Configuration**: Easy-to-edit and persistent settings via a YAML file.
+  * **Modern PyQt6 GUI**: A responsive and user-friendly graphical interface.
 
----
+-----
 
-## 🔧 Requirements
+## ⚙️ Prerequisites
 
-- Python 3.8+
-- PyQt6
-- `yaml` (PyYAML)
+Ensure you have **Python 3.8+** installed along with the following libraries:
 
-Install requirements with:
+  * `PyQt6`
+  * `PyYAML` (`yaml`)
+
+Install these dependencies swiftly using:
 
 ```bash
 pip install -r requirements.txt
 ```
 
----
+-----
 
-## 🚀 Running the App
+## 🚀 Getting Started
 
-Make sure you're in your virtual environment or have dependencies installed:
+Navigate to your project directory and execute the following:
+
+To launch the graphical interface:
 
 ```bash
 python gui.py
 ```
 
-To start the beacon from CLI:
+To initiate beaconing directly from the command line:
 
 ```bash
 python 9m2pju-aprs-beacon.py
 ```
 
----
+-----
 
-## 🛠 Configuration File (`config.yaml`)
+## 🛠 Configuration (`config.yaml`)
 
-This file is auto-managed by the GUI but can be manually edited.
+While the GUI manages this file automatically, you can always fine-tune your settings manually.
 
 ```yaml
 callsign: 9M2PJU
@@ -69,7 +72,7 @@ beacons:
     latitude: 3.1234
     longitude: 101.5678
     symbol_table: /
-    symbol: #
+    symbol: "#"
     comment: Digi at hill
     interval: 15
 
@@ -82,17 +85,17 @@ beacons:
     interval: 30
 ```
 
----
+-----
 
-## 🔐 Passcode Note
+## 🔐 Important: APRS-IS Passcode
 
-Your **APRS-IS passcode** is required for transmission. This is based on your callsign and is used for authentication. You can generate it using APRS-IS tools or calculators online.
+Your **APRS-IS passcode** is crucial for successful transmission. This unique code is derived from your callsign and is essential for authenticating with the APRS-IS network. If you don't have one, you can generate it using various online APRS-IS tools or calculators.
 
----
+-----
 
-## 💻 Development
+## 💻 Contribution
 
-To contribute:
+We welcome contributions\! To get involved:
 
 ```bash
 git clone git@github.com:9M2PJU/9M2PJU-Easy-APRS-IS-Beacon-and-Object.git
@@ -100,15 +103,19 @@ cd 9M2PJU-Easy-APRS-IS-Beacon-and-Object
 python gui.py
 ```
 
----
+-----
 
 ## 📜 License
 
-MIT License — free for anyone to use or improve.
+This project is released under the **GNU General Public License v3.0 (GPLv3)**. Feel free to use, modify, and distribute it in accordance with the terms of the license.
 
----
+-----
 
-## 📞 Contact
+## 📞 Get in Touch
 
-- **Callsign**: 9M2PJU
-- GitHub: [github.com/9M2PJU](https://github.com/9M2PJU)
+  * **Callsign**: 9M2PJU
+  * **GitHub**: [github.com/9M2PJU](https://github.com/9M2PJU)
+
+-----
+
+Do you have any questions about setting up the application or its features?
