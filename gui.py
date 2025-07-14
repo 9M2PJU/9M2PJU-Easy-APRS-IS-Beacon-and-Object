@@ -1,6 +1,7 @@
 import sys, yaml, subprocess, threading, time
 from PyQt6.QtWidgets import *
 from PyQt6.QtCore import Qt, QTimer, pyqtSignal, QObject
+from PyQt6.QtGui import QTextCursor
 from datetime import datetime
 
 
@@ -124,6 +125,9 @@ class APRSGui(QMainWindow):
 
     def log(self, msg):
         self.log_box.append(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] {msg}")
+        cursor = self.log_box.textCursor()
+        cursor.movePosition(QTextCursor.MoveOperation.End)
+        self.log_box.setTextCursor(cursor)
         self.log_box.ensureCursorVisible()
 
     def clear_log(self):

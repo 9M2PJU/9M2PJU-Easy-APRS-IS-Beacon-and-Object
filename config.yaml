@@ -18,7 +18,7 @@ beacons:
   name: obijik
   symbol: R
   symbol_table: /
-callsign: 9M2PJU-1
+callsign: 9M2PJU
 comment: test
 dry_run: false
 interval: 10
