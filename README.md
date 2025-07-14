@@ -2,9 +2,7 @@
 
 A simple Python GUI to send APRS-IS beacon and object packets using PyQt6, with YAML-based configuration. Designed for amateur radio operators who want a graphical way to manage APRS objects and beaconing.
 
-<img width="1008" height="732" alt="image" src="https://github.com/user-attachments/assets/32152064-68c4-4d42-9077-1574a94e529d" />
-
-
+<img width="1008" height="732" alt="image" src="https://github.com/user-attachments/assets/b04017e0-5f18-4e57-90f3-d7b7d5b97a79" />
 
 ---
 
