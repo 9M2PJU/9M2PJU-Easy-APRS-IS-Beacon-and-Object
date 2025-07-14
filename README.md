@@ -48,13 +48,13 @@
 
 ```bash
 # Create virtual environment
-python -m venv .venv
+python -m venv venv
 
 # Activate environment
 # Windows
-.\.venv\Scripts\activate
+.\venv\Scripts\activate
 # macOS/Linux
-source .venv/bin/activate
+source venv/bin/activate
 
 # Install dependencies
 pip install -r requirements.txt
