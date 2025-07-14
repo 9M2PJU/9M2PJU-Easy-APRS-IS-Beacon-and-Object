@@ -1,8 +1,9 @@
-# 9M2PJU Easy APRS-IS Beacon and Object GUI
+# 9M2PJU Easy APRS-IS Beacon and Object
 
 A simple Python GUI to send APRS-IS beacon and object packets using PyQt6, with YAML-based configuration. Designed for amateur radio operators who want a graphical way to manage APRS objects and beaconing.
 
-![9M2PJU Easy APRS](9m2pju-aprs.png)
+<img width="1008" height="732" alt="image" src="https://github.com/user-attachments/assets/27b55a2c-bd80-4681-b989-f4a7901361ab" />
+
 
 ---
 
