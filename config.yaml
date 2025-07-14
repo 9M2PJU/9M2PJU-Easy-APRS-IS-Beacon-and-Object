@@ -1,0 +1,30 @@
+aprs_servers:
+- host: aprs.hamradio.my
+  port: 14580
+- host: rotate.aprs.net
+  port: 14580
+beacons:
+- comment: test
+  interval: 15
+  latitude: 3.1234
+  longitude: 101.5678
+  name: DIGI01
+  symbol: r
+  symbol_table: /
+- comment: test
+  interval: 30
+  latitude: 3.1415
+  longitude: 101.6789
+  name: obijik
+  symbol: R
+  symbol_table: /
+callsign: 9M2PJU-1
+comment: test
+dry_run: false
+interval: 10
+latitude: 3.0738
+longitude: 101.4457
+passcode: '12970'
+staggered: true
+symbol: r
+symbol_table: /
