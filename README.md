@@ -10,7 +10,7 @@
 
 ![App Screenshot](https://github.com/user-attachments/assets/59aa861c-8867-499f-8e91-cc7a18de4d91)
 
-**9M2PJU Easy APRS-IS Beacon and Object** is a sleek, Python-powered desktop app built with **PyQt6**, crafted to streamline APRS-IS beacon and object packet transmission for amateur radio enthusiasts. Its clean and intuitive GUI lets you manage APRS objects and beaconing effortlessly — no more fuss, just simple and effective operation.
+**9M2PJU Easy APRS-IS Beacon and Object** is a Python-powered desktop app built with **PyQt6**, crafted to streamline direct beacon and object to the APRS-IS for amateur radio enthusiasts. Its clean and intuitive GUI lets you manage APRS objects and beaconing effortlessly — no more fuss, just simple and effective operation.
 
 ---
 
@@ -22,7 +22,7 @@
 - 📍 **Flexible Beacon Modes**  
   Support for fixed-location beacons *and* multiple dynamic objects.
 
-- 🎨 **Custom Object Configuration**  
+- 🎨 **Object Configuration**  
   Assign unique symbols, tables, and descriptive comments per object.
 
 - 🛑 **Safe "Dry Run" Mode**  
