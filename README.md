@@ -1,49 +1,68 @@
 # 9M2PJU Easy APRS-IS Beacon and Object
 
-Presenting a sleek, Python-based graphical interface crafted with PyQt6, designed to simplify **APRS-IS beacon and object packet transmission**. This intuitive application is tailored for amateur radio operators seeking a streamlined, visual method to manage their APRS objects and beaconing activities.
+Python-based graphical interface crafted with **PyQt6**, designed to simplify **APRS-IS beacon and object packet transmission**. This intuitive application is tailored for amateur radio operators seeking a streamlined, visual method to manage their APRS objects and beaconing activities.
 
-<img width="1008" height="732" alt="image" src="https://github.com/user-attachments/assets/8fe80209-5ee0-4338-8dbb-475909af4ab4" />
+<img width="1008" height="732" alt="image" src="https://github.com/user-attachments/assets/b87d5e8e-f843-4944-8132-7e5a651e249c" />
 
------
+---
 
 ## 🌟 Key Features
 
-  * **Effortless APRS-IS Integration**: Seamless login and beaconing capabilities.
-  * **Versatile Beaconing**: Supports both fixed-position and multiple object beacons.
-  * **Customizable Objects**: Configure unique symbols and comments for each object.
-  * **"Dry Run" Mode**: Test your configurations safely without transmitting.
-  * **Intelligent Staggered Intervals**: Optimize your beaconing with staggered transmission times.
-  * **YAML Configuration**: Easy-to-edit and persistent settings via a YAML file.
-  * **Modern PyQt6 GUI**: A responsive and user-friendly graphical interface.
+* **Effortless APRS-IS Integration**: Seamless login and beaconing capabilities.
+* **Versatile Beaconing**: Supports both **fixed-position and multiple object beacons**.
+* **Customizable Objects**: Configure unique **symbols** and **comments** for each object.
+* **"Dry Run" Mode**: Test your configurations safely without transmitting.
+* **Intelligent Staggered Intervals**: Optimize your beaconing with staggered transmission times.
+* **YAML Configuration**: Easy-to-edit and persistent settings via a `config.yaml` file.
+* **Modern PyQt6 GUI**: A responsive and user-friendly graphical interface.
 
------
+---
 
 ## ⚙️ Prerequisites
 
-Ensure you have **Python 3.8+** installed along with the following libraries:
+This application requires **Python 3.8+**. To ensure a clean and isolated development environment, it's highly recommended to use a Python **virtual environment**.
 
-  * `PyQt6`
-  * `PyYAML` (`yaml`)
+### Setting Up a Virtual Environment and Installing Dependencies
 
-Install these dependencies swiftly using:
+1.  **Create a Virtual Environment**:
+    Open your terminal or command prompt, navigate to the project directory, and run:
+    ```bash
+    python -m venv .venv
+    ```
+    This command creates a new directory named `.venv` (a common convention) within your project, which will contain a private Python interpreter and package installations.
 
-```bash
-pip install -r requirements.txt
-```
+2.  **Activate the Virtual Environment**:
+    Before installing dependencies or running the application, you need to activate the virtual environment.
+    * **On Windows**:
+        ```bash
+        .\.venv\Scripts\activate
+        ```
+    * **On macOS/Linux**:
+        ```bash
+        source ./.venv/bin/activate
+        ```
+    You'll typically see `(.venv)` or similar text appear in your terminal prompt, indicating that the virtual environment is active.
 
------
+3.  **Install Required Libraries**:
+    With your virtual environment activated, install the necessary Python packages:
+    ```bash
+    pip install -r requirements.txt
+    ```
+    This will install `PyQt6` and `PyYAML` within your isolated `.venv` environment.
+
+---
 
 ## 🚀 Getting Started
 
-Navigate to your project directory and execute the following:
+Once your environment is set up and dependencies are installed, you're ready to go!
 
-To launch the graphical interface:
+To launch the **graphical interface**:
 
 ```bash
 python gui.py
-```
+````
 
-To initiate beaconing directly from the command line:
+To initiate **beaconing directly from the command line** (useful for automated setups):
 
 ```bash
 python 9m2pju-aprs-beacon.py
@@ -53,7 +72,7 @@ python 9m2pju-aprs-beacon.py
 
 ## 🛠 Configuration (`config.yaml`)
 
-While the GUI manages this file automatically, you can always fine-tune your settings manually.
+This crucial file is **auto-managed by the GUI**, making it incredibly easy to use. However, you can also fine-tune your settings manually if you prefer.
 
 ```yaml
 callsign: 9M2PJU
@@ -89,13 +108,13 @@ beacons:
 
 ## 🔐 Important: APRS-IS Passcode
 
-Your **APRS-IS passcode** is crucial for successful transmission. This unique code is derived from your callsign and is essential for authenticating with the APRS-IS network. If you don't have one, you can generate it using various online APRS-IS tools or calculators.
+Your **APRS-IS passcode** is absolutely essential for successful transmission. This unique code is derived from your callsign and is used for authenticating with the APRS-IS network. If you don't have one, you can easily generate it using various **online APRS-IS tools or calculators**.
 
 -----
 
 ## 💻 Contribution
 
-We welcome contributions\! To get involved:
+We warmly welcome contributions from the community\! If you'd like to get involved, follow these steps:
 
 ```bash
 git clone git@github.com:9M2PJU/9M2PJU-Easy-APRS-IS-Beacon-and-Object.git
@@ -103,19 +122,20 @@ cd 9M2PJU-Easy-APRS-IS-Beacon-and-Object
 python gui.py
 ```
 
+Feel free to open issues, submit pull requests, or suggest new features. Your input helps make this project even better\!
+
 -----
 
 ## 📜 License
 
-This project is released under the **GNU General Public License v3.0 (GPLv3)**. Feel free to use, modify, and distribute it in accordance with the terms of the license.
+This project is released under the **GNU General Public License v3.0 (GPLv3)**. You are free to use, modify, and distribute this software in accordance with the terms of the license. For more details, see the `LICENSE` file in the repository.
 
 -----
 
 ## 📞 Get in Touch
 
+Have questions, suggestions, or just want to say hello? Don't hesitate to reach out!
+
   * **Callsign**: 9M2PJU
   * **GitHub**: [github.com/9M2PJU](https://github.com/9M2PJU)
 
------
-
-Do you have any questions about setting up the application or its features?
