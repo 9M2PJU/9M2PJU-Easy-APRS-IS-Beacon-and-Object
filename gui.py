@@ -28,7 +28,7 @@ class ProcessMonitor(QObject):
 class APRSGui(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Easy APRS Beacon GUI")
+        self.setWindowTitle("9M2PJU Easy APRS Beacon and Object")
         self.setGeometry(200, 200, 1000, 700)
         self.config = {}
         self.aprs_process = None
