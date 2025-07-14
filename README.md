@@ -1,68 +1,76 @@
 # 9M2PJU Easy APRS-IS Beacon and Object
 
-Python-based graphical interface crafted with **PyQt6**, designed to simplify **APRS-IS beacon and object packet transmission**. This intuitive application is tailored for amateur radio operators seeking a streamlined, visual method to manage their APRS objects and beaconing activities.
+-----
 
-<img width="1008" height="732" alt="image" src="https://github.com/user-attachments/assets/b87d5e8e-f843-4944-8132-7e5a651e249c" />
+<img width="1008" height="732" alt="image" src="https://github.com/user-attachments/assets/59aa861c-8867-499f-8e91-cc7a18de4d91" />
 
----
+The **9M2PJU Easy APRS-IS Beacon and Object** is a user-friendly, Python-based application built with **PyQt6** designed to simplify **APRS-IS beacon and object packet transmission** for amateur radio operators. This intuitive tool provides a visual interface to manage your APRS objects and beaconing activities with ease.
+
+-----
 
 ## 🌟 Key Features
 
-* **Effortless APRS-IS Integration**: Seamless login and beaconing capabilities.
-* **Versatile Beaconing**: Supports both **fixed-position and multiple object beacons**.
-* **Customizable Objects**: Configure unique **symbols** and **comments** for each object.
-* **"Dry Run" Mode**: Test your configurations safely without transmitting.
-* **Intelligent Staggered Intervals**: Optimize your beaconing with staggered transmission times.
-* **YAML Configuration**: Easy-to-edit and persistent settings via a `config.yaml` file.
-* **Modern PyQt6 GUI**: A responsive and user-friendly graphical interface.
+  * **Effortless APRS-IS Integration**: Seamlessly log in and transmit beacons to the APRS-IS network.
+  * **Versatile Beaconing**: Supports both **fixed-position and multiple object beacons**, catering to diverse operational needs.
+  * **Customizable Objects**: Configure unique **symbols** and **comments** for each object, allowing for detailed identification.
+  * **"Dry Run" Mode**: Test your configurations safely without transmitting, ensuring accuracy before going live.
+  * **Intelligent Staggered Intervals**: Optimize your beaconing with staggered transmission times to avoid congestion and improve network efficiency.
+  * **YAML Configuration**: Easy-to-edit and persistent settings managed through a `config.yaml` file, simplifying setup and modifications.
+  * **Modern PyQt6 GUI**: A responsive and user-friendly graphical interface for an enhanced user experience.
 
----
+-----
 
 ## ⚙️ Prerequisites
 
-This application requires **Python 3.8+**. To ensure a clean and isolated development environment, it's highly recommended to use a Python **virtual environment**.
+This application requires **Python 3.8+**. For a clean and isolated environment, using a Python **virtual environment** is highly recommended.
 
 ### Setting Up a Virtual Environment and Installing Dependencies
 
 1.  **Create a Virtual Environment**:
-    Open your terminal or command prompt, navigate to the project directory, and run:
+    Open your terminal or command prompt, navigate to your project directory, and execute:
+
     ```bash
     python -m venv .venv
     ```
-    This command creates a new directory named `.venv` (a common convention) within your project, which will contain a private Python interpreter and package installations.
+
+    This command creates a `.venv` directory (a common convention) within your project, housing a private Python interpreter and package installations.
 
 2.  **Activate the Virtual Environment**:
-    Before installing dependencies or running the application, you need to activate the virtual environment.
-    * **On Windows**:
+    Before installing dependencies or running the application, you must activate the virtual environment.
+
+      * **On Windows**:
         ```bash
         .\.venv\Scripts\activate
         ```
-    * **On macOS/Linux**:
+      * **On macOS/Linux**:
         ```bash
         source ./.venv/bin/activate
         ```
-    You'll typically see `(.venv)` or similar text appear in your terminal prompt, indicating that the virtual environment is active.
+
+    Upon activation, you'll typically see `(.venv)` or similar text in your terminal prompt, indicating that the virtual environment is active.
 
 3.  **Install Required Libraries**:
     With your virtual environment activated, install the necessary Python packages:
+
     ```bash
     pip install -r requirements.txt
     ```
-    This will install `PyQt6` and `PyYAML` within your isolated `.venv` environment.
 
----
+    This command installs `PyQt6` and `PyYAML` within your isolated `.venv` environment.
+
+-----
 
 ## 🚀 Getting Started
 
-Once your environment is set up and dependencies are installed, you're ready to go!
+Once your environment is set up and dependencies are installed, you're ready to use the application\!
 
 To launch the **graphical interface**:
 
 ```bash
 python gui.py
-````
+```
 
-To initiate **beaconing directly from the command line** (useful for automated setups):
+To initiate **beaconing directly from the command line** (ideal for automated setups):
 
 ```bash
 python 9m2pju-aprs-beacon.py
@@ -72,7 +80,7 @@ python 9m2pju-aprs-beacon.py
 
 ## 🛠 Configuration (`config.yaml`)
 
-This crucial file is **auto-managed by the GUI**, making it incredibly easy to use. However, you can also fine-tune your settings manually if you prefer.
+The `config.yaml` file is **auto-managed by the GUI**, providing an incredibly user-friendly experience. You can also fine-tune your settings manually if preferred.
 
 ```yaml
 callsign: 9M2PJU
@@ -108,13 +116,13 @@ beacons:
 
 ## 🔐 Important: APRS-IS Passcode
 
-Your **APRS-IS passcode** is absolutely essential for successful transmission. This unique code is derived from your callsign and is used for authenticating with the APRS-IS network. If you don't have one, you can easily generate it using various **online APRS-IS tools or calculators**.
+Your **APRS-IS passcode** is crucial for successful transmission. This unique code is derived from your callsign and is used for authenticating with the APRS-IS network. If you don't have one, you can easily generate it at [https://pass.hamradio.my](https://pass.hamradio.my).
 
 -----
 
 ## 💻 Contribution
 
-We warmly welcome contributions from the community\! If you'd like to get involved, follow these steps:
+Contributions from the community are warmly welcomed\! If you'd like to get involved, follow these steps:
 
 ```bash
 git clone git@github.com:9M2PJU/9M2PJU-Easy-APRS-IS-Beacon-and-Object.git
@@ -134,8 +142,7 @@ This project is released under the **GNU General Public License v3.0 (GPLv3)**. 
 
 ## 📞 Get in Touch
 
-Have questions, suggestions, or just want to say hello? Don't hesitate to reach out!
+Have questions, suggestions, or just want to say hello? Don't hesitate to reach out\!
 
   * **Callsign**: 9M2PJU
   * **GitHub**: [github.com/9M2PJU](https://github.com/9M2PJU)
-
