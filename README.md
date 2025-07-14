@@ -108,6 +108,31 @@ beacons:
 
 ---
 
+## 📦 Standalone AppImage Release
+
+A **pre-built standalone AppImage** is now available for Linux users — no need to install Python or dependencies!
+
+Download the latest release here:
+[9M2PJU\_Easy\_APRS-IS\_Beacon\_and\_Object-x86\_64.AppImage](https://github.com/9M2PJU/9M2PJU-Easy-APRS-IS-Beacon-and-Object/releases/latest)
+
+### Running the AppImage
+
+Make the AppImage executable:
+
+```bash
+chmod +x 9M2PJU_Easy_APRS-IS_Beacon_and_Object-x86_64.AppImage
+```
+
+Run it:
+
+```bash
+./9M2PJU_Easy_APRS-IS_Beacon_and_Object-x86_64.AppImage
+```
+
+The AppImage includes all dependencies and your virtual environment bundled inside.
+
+---
+
 ## 🔐 APRS-IS Passcode
 
 Your APRS-IS passcode authenticates you on the network and is essential for transmission. Generate yours easily at:
@@ -127,15 +152,6 @@ Feel free to file issues, send pull requests, or suggest features — your contr
 
 This project is licensed under the **GNU General Public License v3.0 (GPLv3)**.
 See the [`LICENSE`](LICENSE) file for full details.
-
----
-
-## 📬 Stay Connected
-
-Got questions, feedback, or just want to chat?
-
-* **Callsign:** 9M2PJU
-* **GitHub:** [github.com/9M2PJU](https://github.com/9M2PJU)
 
 ---
 
