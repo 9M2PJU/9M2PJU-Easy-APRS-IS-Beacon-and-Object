@@ -171,6 +171,3 @@ Got questions, feedback, or just want to chat? Reach out!
 ---
 
 Made with ❤️ by amateur radio enthusiasts, for amateur radio enthusiasts worldwide.
-
-```
-
