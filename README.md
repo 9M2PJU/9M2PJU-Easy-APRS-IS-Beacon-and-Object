@@ -2,7 +2,7 @@
 
 Presenting a sleek, Python-based graphical interface crafted with PyQt6, designed to simplify **APRS-IS beacon and object packet transmission**. This intuitive application is tailored for amateur radio operators seeking a streamlined, visual method to manage their APRS objects and beaconing activities.
 
-\<img width="1008" height="732" alt="image" src="[https://github.com/user-attachments/assets/b04017e0-5f18-4e57-90f3-d7b7d5b97a79](https://github.com/user-attachments/assets/b04017e0-5f18-4e57-90f3-d7b7d5b97a79)" /\>
+<img width="1008" height="732" alt="image" src="https://github.com/user-attachments/assets/8fe80209-5ee0-4338-8dbb-475909af4ab4" />
 
 -----
 
