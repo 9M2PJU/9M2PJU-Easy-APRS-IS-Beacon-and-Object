@@ -1,86 +1,80 @@
-# 9M2PJU Easy APRS-IS Beacon and Object
+# 🚀 9M2PJU Easy APRS-IS Beacon and Object
 
------
+---
 
-<img width="1008" height="732" alt="image" src="https://github.com/user-attachments/assets/59aa861c-8867-499f-8e91-cc7a18de4d91" />
+![Screenshot](https://github.com/user-attachments/assets/59aa861c-8867-499f-8e91-cc7a18de4d91)
 
-The **9M2PJU Easy APRS-IS Beacon and Object** is a user-friendly, Python-based application built with **PyQt6** designed to simplify **APRS-IS beacon and object packet transmission** for amateur radio operators. This intuitive tool provides a visual interface to manage your APRS objects and beaconing activities with ease.
+**9M2PJU Easy APRS-IS Beacon and Object** is a sleek, Python-powered desktop app built with **PyQt6**, crafted to streamline APRS-IS beacon and object packet transmission for amateur radio enthusiasts. Its clean and intuitive GUI lets you manage APRS objects and beaconing effortlessly — no more fuss, just simple and effective operation.
 
------
+---
 
-## 🌟 Key Features
+## ✨ Features at a Glance
 
-  * **Effortless APRS-IS Integration**: Seamlessly log in and transmit beacons to the APRS-IS network.
-  * **Versatile Beaconing**: Supports both **fixed-position and multiple object beacons**, catering to diverse operational needs.
-  * **Customizable Objects**: Configure unique **symbols** and **comments** for each object, allowing for detailed identification.
-  * **"Dry Run" Mode**: Test your configurations safely without transmitting, ensuring accuracy before going live.
-  * **Intelligent Staggered Intervals**: Optimize your beaconing with staggered transmission times to avoid congestion and improve network efficiency.
-  * **YAML Configuration**: Easy-to-edit and persistent settings managed through a `config.yaml` file, simplifying setup and modifications.
-  * **Modern PyQt6 GUI**: A responsive and user-friendly graphical interface for an enhanced user experience.
+- **Seamless APRS-IS Connectivity**  
+  Log in and transmit beacons directly to the APRS-IS network with zero hassle.
 
------
+- **Flexible Beacon Modes**  
+  Support for fixed-location beacons *and* multiple dynamic objects.
+
+- **Custom Object Configuration**  
+  Assign unique symbols, tables, and descriptive comments per object.
+
+- **Safe "Dry Run" Mode**  
+  Validate your setups without transmitting, for peace of mind.
+
+- **Smart Staggered Intervals**  
+  Avoid network congestion by automatically staggering beacon intervals.
+
+- **Human-Friendly YAML Configuration**  
+  Easily tweak settings through a clean `config.yaml` file.
+
+- **Modern PyQt6 GUI**  
+  Responsive, intuitive interface designed for smooth user experience.
+
+---
 
 ## ⚙️ Prerequisites
 
-This application requires **Python 3.8+**. For a clean and isolated environment, using a Python **virtual environment** is highly recommended.
+- Python 3.8 or higher  
+- Recommended: use a Python **virtual environment** for clean dependency management.
 
-### Setting Up a Virtual Environment and Installing Dependencies
+### Quick Setup Guide
 
-1.  **Create a Virtual Environment**:
-    Open your terminal or command prompt, navigate to your project directory, and execute:
+```bash
+# Create virtual environment
+python -m venv .venv
 
-    ```bash
-    python -m venv .venv
-    ```
+# Activate environment
+# Windows
+.\.venv\Scripts\activate
+# macOS/Linux
+source .venv/bin/activate
 
-    This command creates a `.venv` directory (a common convention) within your project, housing a private Python interpreter and package installations.
+# Install dependencies
+pip install -r requirements.txt
+````
 
-2.  **Activate the Virtual Environment**:
-    Before installing dependencies or running the application, you must activate the virtual environment.
+---
 
-      * **On Windows**:
-        ```bash
-        .\.venv\Scripts\activate
-        ```
-      * **On macOS/Linux**:
-        ```bash
-        source ./.venv/bin/activate
-        ```
+## 🚀 How to Run
 
-    Upon activation, you'll typically see `(.venv)` or similar text in your terminal prompt, indicating that the virtual environment is active.
-
-3.  **Install Required Libraries**:
-    With your virtual environment activated, install the necessary Python packages:
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-    This command installs `PyQt6` and `PyYAML` within your isolated `.venv` environment.
-
------
-
-## 🚀 Getting Started
-
-Once your environment is set up and dependencies are installed, you're ready to use the application\!
-
-To launch the **graphical interface**:
+Launch the graphical interface:
 
 ```bash
 python gui.py
 ```
 
-To initiate **beaconing directly from the command line** (ideal for automated setups):
+Or run beaconing from the command line (great for automated or headless setups):
 
 ```bash
 python 9m2pju-aprs-beacon.py
 ```
 
------
+---
 
-## 🛠 Configuration (`config.yaml`)
+## 📝 Configuration (`config.yaml`)
 
-The `config.yaml` file is **auto-managed by the GUI**, providing an incredibly user-friendly experience. You can also fine-tune your settings manually if preferred.
+The GUI manages this file for you, but manual editing is always an option.
 
 ```yaml
 callsign: 9M2PJU
@@ -112,37 +106,38 @@ beacons:
     interval: 30
 ```
 
------
+---
 
-## 🔐 Important: APRS-IS Passcode
+## 🔐 APRS-IS Passcode
 
-Your **APRS-IS passcode** is crucial for successful transmission. This unique code is derived from your callsign and is used for authenticating with the APRS-IS network. If you don't have one, you can easily generate it at [https://pass.hamradio.my](https://pass.hamradio.my).
+Your APRS-IS passcode authenticates you on the network and is essential for transmission. Generate yours easily at:
+[https://pass.hamradio.my](https://pass.hamradio.my)
 
------
+---
 
-## 💻 Contribution
+## 🤝 Contributing
 
-Contributions from the community are warmly welcomed\! If you'd like to get involved, follow these steps:
+Love open source? We do too!
 
-```bash
-git clone git@github.com:9M2PJU/9M2PJU-Easy-APRS-IS-Beacon-and-Object.git
-cd 9M2PJU-Easy-APRS-IS-Beacon-and-Object
-python gui.py
-```
+Feel free to file issues, send pull requests, or suggest features — your contributions make this project better for everyone!
 
-Feel free to open issues, submit pull requests, or suggest new features. Your input helps make this project even better\!
+---
 
------
+## 📄 License
 
-## 📜 License
+This project is licensed under the **GNU General Public License v3.0 (GPLv3)**.
+See the [`LICENSE`](LICENSE) file for full details.
 
-This project is released under the **GNU General Public License v3.0 (GPLv3)**. You are free to use, modify, and distribute this software in accordance with the terms of the license. For more details, see the `LICENSE` file in the repository.
+---
 
------
+## 📬 Stay Connected
 
-## 📞 Get in Touch
+Got questions, feedback, or just want to chat?
 
-Have questions, suggestions, or just want to say hello? Don't hesitate to reach out\!
+* **Callsign:** 9M2PJU
+* **GitHub:** [github.com/9M2PJU](https://github.com/9M2PJU)
 
-  * **Callsign**: 9M2PJU
-  * **GitHub**: [github.com/9M2PJU](https://github.com/9M2PJU)
+---
+
+Made with ❤️ for amateur radio operators worldwide.
+
