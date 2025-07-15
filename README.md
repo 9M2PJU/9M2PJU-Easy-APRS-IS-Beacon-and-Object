@@ -14,6 +14,10 @@
 
 ---
 
+## To Do List
+
+- Add TNC support!
+
 ## ✨ Features at a Glance
 
 - 🚀 **Seamless APRS-IS Connectivity**  
