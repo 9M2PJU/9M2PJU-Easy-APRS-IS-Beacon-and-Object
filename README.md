@@ -12,7 +12,7 @@
 --
 9M2PJU Easy APRS-IS Beacon and Object is a Python-based desktop application built with PyQt6, designed to make it easy for amateur radio operators to send APRS beacons and objects directly to the APRS-IS network.
 --
-This tool is useful for licensed operators who do not have RF equipment but still want to mark locations — such as event sites, eyeball QSO spots, or meeting points — on the APRS map.
+This tool is useful for licensed operators who do not have APRS RF-capable equipment but still want to mark locations — such as event sites, eyeball QSO spots, or meeting points — on the APRS map.
 --
 
 ## ⚠️ To Do List
