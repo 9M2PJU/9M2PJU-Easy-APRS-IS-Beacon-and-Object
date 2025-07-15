@@ -16,7 +16,7 @@
 
 ## ⚠️ To Do List
 
-- Add TNC support!
+- Add TNC support! Contributors needed here.
 
 ## ✨ Features at a Glance
 
@@ -150,7 +150,6 @@ Love open source? So do we! 🚀
 Feel free to:
 
 * 🐞 File issues
-* 💡 Suggest features
 * 🔧 Submit pull requests
 
 Your contributions make this project better for everyone!
